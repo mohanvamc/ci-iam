@@ -1,7 +1,8 @@
-# ci-iam-module
+# ci-iam module
 
 create a CI user and group attaches a policy to assume a CI role
 
+Folder Structure 
 ```bash
 .
 └── ci-iam
@@ -16,7 +17,7 @@ create a CI user and group attaches a policy to assume a CI role
     └── versions.tf
 ```
 
-cd ci-iam-module
+# RUN 
 To run this code you need to execute:
 
 cd example
@@ -30,14 +31,14 @@ $ terraform apply
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> | >= 1.0 |
-| <a name="requirement_aws"></a>  | >= 4.0 |
+| requirement_terraform | >= 1.0 |
+| name="requirement_aws | >= 4.0 |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="name"></a> | Name to be used for user/group/policy/role | `string` | n/a | yes |
+| name | Name to be used for user/group/policy/role | `string` | prod-ci | yes |
 
 
 
@@ -46,8 +47,8 @@ $ terraform apply
 
 | Name | Description |
 |------|-------------|
-| <a name="role_arn"></a> | The ARN of the Role that is created |
-| <a name="policy_arn"></a> | The ARN of the Policy that is created |
-| <a name="group_name"></a> | The Name of the Group that is created |
-| <a name="user_name"></a> | The Name of the user that is created |
+| role_arn | The ARN of the Role that is created |
+| policy_arn | The ARN of the Policy that is created |
+| group_name | The Name of the Group that is created |
+| user_name | The Name of the user that is created |
 
