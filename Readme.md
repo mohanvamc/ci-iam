@@ -12,7 +12,6 @@ Folder Structure
     │   └── tfplan.txt
     ├── main.tf
     ├── outputs.tf
-    ├── tfplan.txt
     ├── variables.tf
     └── versions.tf
 ```
